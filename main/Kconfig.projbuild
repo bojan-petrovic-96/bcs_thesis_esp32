@@ -1,0 +1,9 @@
+# put here your custom config value
+menu "Guest Room Config"
+config ROOM_NUMBER
+    string "Enter room number:"
+    default "308"
+config ROOM_GUEST
+    string "Enter guest name:"
+    default "name"
+endmenu

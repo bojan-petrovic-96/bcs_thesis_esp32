@@ -1,0 +1,15 @@
+# put here your custom config value
+menu "MQTT Config"
+    config MQTT_URL
+        string "Enter URL"
+        default ""
+    config MQTT_PORT
+        int "Enter PORT"
+        default 1883
+    config MQTT_UNAME
+        string "Enter USERNAME:"
+        default ""
+     config MQTT_PASSWORD
+        string "Enter PASSWORD:"
+        default ""
+endmenu

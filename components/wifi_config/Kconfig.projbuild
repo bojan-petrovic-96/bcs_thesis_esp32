@@ -1,0 +1,9 @@
+# put here your custom config value
+menu "WiFi Config"
+    config WIFI_SSID
+        string "Enter SSID:"
+        default ""
+    config WIFI_PASSWORD
+        string "Enter password:"
+        default ""
+endmenu
